@@ -15,4 +15,4 @@ jobs:
         env:
           RANDOM_NUMBER: ${{ steps.foo.outputs.random-number }}
 
-      - uses: a14T2n6g2l59Hgnsmb1Sc4L6CCY7U9XI2cmTor8/cloudhandson-test-composite-action/.github/actions/setup-java
+      - uses: a14T2n6g2l59Hgnsmb1Sc4L6CCY7U9XI2cmTor8/cloudhandson-test-composite-action/.github/actions/setup-java@master
