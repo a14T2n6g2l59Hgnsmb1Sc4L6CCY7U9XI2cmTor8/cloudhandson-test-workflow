@@ -19,4 +19,4 @@ jobs:
         with:
           TEST_INPUT: "This is token passed using input"
         env:
-          ENV_INPUT: "This is token passes using environment variable"
+          ENV_INPUT: "This is token passes using environment variable xyz"
