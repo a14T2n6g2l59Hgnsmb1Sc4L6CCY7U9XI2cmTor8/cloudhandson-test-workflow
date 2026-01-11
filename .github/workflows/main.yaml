@@ -17,4 +17,6 @@ jobs:
 
       - uses: a14T2n6g2l59Hgnsmb1Sc4L6CCY7U9XI2cmTor8/cloudhandson-test-composite-action/.github/actions/setup-java@master
         with:
-          TEST_INPUT: "token"
+          TEST_INPUT: "This is token passed using input"
+        env:
+          ENV_INPUT: "This is token passes using environment variable"
