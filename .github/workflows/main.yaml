@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - id: foo
-        uses: a14T2n6g2l59Hgnsmb1Sc4L6CCY7U9XI2cmTor8/cloudhandson-test-composite-action@SHA
+        uses: a14T2n6g2l59Hgnsmb1Sc4L6CCY7U9XI2cmTor8/cloudhandson-test-composite-action@v1
         with:
           who-to-greet: 'Mona the Octocat'
       - run: echo random-number "$RANDOM_NUMBER"
