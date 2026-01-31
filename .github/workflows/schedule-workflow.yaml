@@ -1,9 +1,9 @@
 name: Daily Scheduled Workflow
 
 on:
-  schedule:
+  # schedule:
     # Run every day at 2:30 PM UTC
-    - cron: '10 * * * *'
+    # - cron: '10 * * * *'
 
 jobs:
   build:
