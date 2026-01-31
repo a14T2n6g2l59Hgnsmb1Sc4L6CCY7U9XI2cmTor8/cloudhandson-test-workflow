@@ -3,7 +3,7 @@ name: Daily Scheduled Workflow
 on:
   schedule:
     # Run every day at 2:30 PM UTC
-    - cron: '25 07 * * *'
+    - cron: '10 * * * *'
 
 jobs:
   build:
@@ -12,4 +12,4 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Run a scheduled task
-        run: echo "This job runs daily at 07:11 AM UTC"
+        run: Timestamp=$(date +"%Y-%m-%d_%H:%M:%S"); echo "This job runs every hour at ${Timestamp}" 
